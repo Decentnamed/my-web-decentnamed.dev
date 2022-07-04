@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+}
+
+/*HEADER FIELD*/
+header{
+    background-position: center;
+    height: 30vh;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #00000093;
+}
+
+menu .name{
+    font-size: 30px;
+    color: rgb(196, 145, 52);
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+
+menu .buttonsMenu{
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+menu button{
+    background-color: rgba(0, 0, 139, 0);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    border: none;  
+}
+
+menu button:hover{
+    color: rgb(196, 145, 52);
+}
+
+header h1{
+    font-size: 100px;
+    margin-top: 250px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+/* main */
+
+main{
+    text-align: center;
+    color: white;
+}
+
+main .contactWayHeader{
+    margin-bottom: 200px;
+}
+
+main .contactWayHeader h1{
+    font-size: 60px;
+    
+}
+main .contactWayHeader span{
+    color: rgb(196, 145, 52);
+}
+
+main .contactWaySub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+main .contactWaySub button{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+    background-color: rgb(41, 41, 41);
+    border-color: white;
+    color: white;
+    padding: 50px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 40px;
+}
+
+main .contactWaySub button:hover{
+    border-color: rgb(196, 145, 52);
+    color: rgb(196, 145, 52);
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #00000093;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+footer button {
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 139, 0);
+    color: white;
+    text-shadow: 2px, 2px, 3px, black;
+    border: none;
+}
+
+footer button:hover {
+    padding: 5px 15px;
+    color: rgb(196, 145, 52);
+    border-radius: 10px;
+}
+
+@media (max-width: 1037px){
+    main .contactWaySub button{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1030px){
+
+    main .contactWaySub button{
+        margin-top: 50px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 851px){
+    main .contactWayHeader{
+        font-size: 7,5vw;
+    }
+}
+
+@media (max-width: 826px){
+    main .contactWayHeader h1{
+        font-size: 7.5vw;
+    }
+}
+
+@media (max-width: 700px){
+    menu button{
+        width: 40%;
+    }
+
+    menu .name{
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    menu button {
+        width: 50%;
+    }
+    main .contactWaySub button{
+        font-size: 5.0vw;
+    }
+}
+
+@media (max-width: 400px){
+    menu .name{
+        font-size: 7.5vw;
+    }
+}
+
+
+
