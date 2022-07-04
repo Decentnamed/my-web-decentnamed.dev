@@ -16,22 +16,22 @@ const emailButton = document.querySelector('#inputEmail');
 
 homeHeaderButton.addEventListener('click', e =>{
     e.preventDefault();
-    window.location = "/../index.html";
+    window.location = "./../index.html";
 })
 
 aboutHeaderButton.addEventListener('click', e => {
     e.preventDefault();
-    window.location = "/../about/about.html";
+    window.location = "./../about/about.html";
 })
 
 homeFooterButton.addEventListener('click', e=>{
     e.preventDefault();
-    window.location = "/../index.html";
+    window.location = "./../index.html";
 })
 
 aboutFooterButton.addEventListener('click', e=>{
     e.preventDefault();
-    window.location = "/../about/about.html";
+    window.location = "./../about/about.html";
 })
 
 githubHeaderButton.addEventListener('click', e=>{

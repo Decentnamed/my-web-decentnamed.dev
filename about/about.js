@@ -16,7 +16,7 @@ const careerLabel = document.querySelector('#employmentLabel')
 
 homeHeaderButton.addEventListener('click', e =>{
     e.preventDefault();
-    window.location = "/../index.html";
+    window.location = "./../index.html";
 })
 
 aboutHeaderButton.addEventListener('click', e => {
@@ -26,7 +26,7 @@ aboutHeaderButton.addEventListener('click', e => {
 
 homeFooterButton.addEventListener('click', e=>{
     e.preventDefault();
-    window.location = "/../index.html";
+    window.location = "./../index.html";
 })
 
 aboutFooterButton.addEventListener('click', e=>{
@@ -36,7 +36,7 @@ aboutFooterButton.addEventListener('click', e=>{
 
 careerLabel.addEventListener('click', e=>{
     e.preventDefault();
-    window.location = "/../index.html";
+    window.location = "./../index.html";
 })
 
 githubHeaderButton.addEventListener('click', e=>{
@@ -51,10 +51,10 @@ githubFooterButton.addEventListener('click', e=>{
 
 contactHeaderButton.addEventListener('click', e=>{
     e.preventDefault();
-    window.location = "/../contact/contact.html";
+    window.location = "./../contact/contact.html";
 })
 
 contactFooterButton.addEventListener('click', e=>{
     e.preventDefault();
-    window.location = "/../contact/contact.html";
+    window.location = "./../contact/contact.html";
 })
